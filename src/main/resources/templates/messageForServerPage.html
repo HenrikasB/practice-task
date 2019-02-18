@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Server message</title>
+</head>
+<body>
+<section>
+    <form action="#"  th:object="${user}" method="POST">
+        <p>Enter your name: <input type="text" th:field="*{userName}"><input type="submit"></p>
+    </form>
+
+</section>
+</body>
+</html>
